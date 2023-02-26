@@ -1,7 +1,8 @@
 # Similarity Score with BERT
 Google Helpful content update has again brought in to focus the importance of writing content that is unique and helpful. Content strategy in the past was 
-often dictated by volume over quality which now requires reevulation to reasses and remove thin and low quality content from the websites. Similarity score is a
-or how close pages are semantically to each other is a good way to identify pages that need to be revisted. 
+often dictated by volume over quality which now requires reevulation to reasses and remove thin/low quality content from the websites. Narrowing down on the problem is a considerable effort in itself. If Google is using BERT to understand content it makes sense to create a pipeline to evaulate the content from BERT's perspective. This is exactly what this project accomplishes. 
+
+Similarity score measures how close pages are semantically to each other is a good way to identify pages that need to be revisted. 
 
 There are many algorithm to measure content similarity between pages, tools like screaming frog often use older Text Rank based methods or evaluate page simliarity
 based on frequency of words. Which are great but do not check for Semantic similarity. 
